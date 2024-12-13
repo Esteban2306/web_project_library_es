@@ -179,7 +179,7 @@
 }
 
 .events {
-  padding: 100px 80px 120px 80px;
+  padding: 100px 0px 120px 80px;
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -262,7 +262,7 @@
 }
 
 .person_name_feynman {
-  top: -60px;
+  top: -30px;
   left: 319px;
 }
 
