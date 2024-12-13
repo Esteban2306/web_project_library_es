@@ -312,6 +312,8 @@
   padding: 100px 0 140px;
   background-color: #057bf2;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 
 .membership__title {
@@ -327,11 +329,16 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Agrega estilos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100px;
+  gap: 40px;
 }
 
 .step {
-  /* Agrega estilos */
+  width: 100%;
+  max-width: 220px;
 }
 
 .step__title {
