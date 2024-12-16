@@ -337,8 +337,7 @@
 }
 
 .step {
-  width: 100%;
-  max-width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -360,7 +359,8 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
+  color: #fff;
   height: 140%;
   padding: 60px 80px;
   display: flex;
@@ -389,10 +389,13 @@
 
 .footer__logo {
   margin: auto;
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
   font-size: 22px;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -410,8 +413,11 @@
 }
 
 .footer__column-link {
+  display: flex;
   color: white;
   text-decoration: none;
+  column-gap: 10px;
+  align-items: center;
 }
 
 .footer__social-icon {
@@ -421,6 +427,7 @@
 }
 
 .footer__copyright {
-  color: white;
-  padding: 100px 0;
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: small;
 }
